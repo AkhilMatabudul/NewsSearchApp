@@ -12,7 +12,7 @@ object RetrofitInstance {
     // Api key
     const val apiKey = "710119f4520a4c25b4ab12e46322e7db"
 
-    // RetroFit object/ fetch data from API
+    // RetroFit object / fetch data from API
     val retrofit: Retrofit = Retrofit.Builder()
         .baseUrl(BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
