@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="Widget.Theme.Wordpresapp.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+    </style>
+
+    <style name="Widget.Theme.Wordpresapp.ButtonBar.Fullscreen" parent="">
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="smallBtnStyle" parent="Widget.AppCompat.TextView">
+        <item name="color">@color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="regularBtnStyle" parent="Widget.AppCompat.TextView">
+        <item name="color">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="largeBtnStyle" parent="Widget.AppCompat.TextView">
+        <item name="color">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

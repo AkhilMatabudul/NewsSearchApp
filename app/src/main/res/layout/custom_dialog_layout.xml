@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="your_animation.json"
+        app:lottie_loop="true"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Dialog Title"
+            style="@style/regularBtnStyle"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:backgroundTint="@color/light_blue_900"
+        android:layout_marginTop="20dp"
+        android:onClick="closeDialog"/>
+</LinearLayout>
